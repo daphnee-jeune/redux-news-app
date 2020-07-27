@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 
 //image
 import image from "../src/header.svg"
