@@ -11,7 +11,7 @@ const Main = () => {
     //select relevance
     const [relevance, setRelevance] = useState("")
 
-    //----- connect redux
+    //connect redux
     const customNewsSelector = useSelector((state) => state.CustomSearch)
     //dispatch hook
     const dispatch = useDispatch()
@@ -32,9 +32,6 @@ const Main = () => {
         })
     }
 
-
-
-    //effect
     useEffect(() => {
         getSources()
     }, [])

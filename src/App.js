@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './index.css'
 
 //image
 import image from "../src/header.svg"
