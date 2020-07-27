@@ -34,8 +34,8 @@ function App() {
         <main>
           <Routes />
         </main>
-
       </div>
+
     </Provider>
 
   )
