@@ -1,0 +1,146 @@
+body{
+  background: rgb(229, 231, 238);  /* fallback for old browsers */
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans"; 
+}
+.App{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+nav ul li a{
+  color: #092e63;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover { 
+  border-bottom: 2px solid white;
+  transition: all 0.2s ease;
+}
+
+header {
+  position: relative;
+  height: 400px;
+}
+
+header h1 {
+  color: #092e63;
+  font-size: 7rem;
+  line-height: 7rem;
+  width: 40%;
+}
+
+header img {
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  z-index: -1;
+}
+
+main {
+  padding: 10px;
+}
+
+h2 {
+  color: #092e63;
+  font-size: 1.5rem;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  width: 100%;
+  max-width: 350px;
+  margin: 10px;
+  background: #fff;
+  padding: 10px;
+  text-align: justify;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.post p {
+  margin: auto;
+  width: 95%;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+form *{
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+}
+
+form label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #222;
+  padding: 10px;
+  
+}
+
+form input[type="submit"] {
+  margin: 10px 0 30px 0;
+  width: 100px; 
+  background: none;
+  border: none;
+  font-size: 1rem;
+  background: #f6279b;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+} 
+
+form input[type="submit"]:hover {
+  background: transparent;
+  border: 1.5px solid #f6279b;
+  color: #f6279b;
+  transition: all 0.2s ease;
+}
