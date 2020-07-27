@@ -69,7 +69,7 @@ const Main = () => {
         <>
             <section>
 
-                 <form onSubmit = {getNews}>
+                <form onSubmit = {getNews}>
                     <div className="form-control">
                         <label>Source</label>
                         <select onChange = {e => setSource(e.target.value)}>
@@ -82,6 +82,7 @@ const Main = () => {
                                 })
                             }
                         </select>
+                        
                         <label>Relevance</label>
                         <select onChange={e => setRelevance(e.target.value) }>
                             <option value="latest">Latest</option>
@@ -89,11 +90,10 @@ const Main = () => {
                         </select>
                         <input type="submit" value="Search" />
                     </div>
-                 </form>   
+                </form>   
            
                     {news}
-                     
-                           
+                               
             </section>
         </>
     )   
